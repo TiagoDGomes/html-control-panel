@@ -14,12 +14,12 @@ body {background-repeat: repeat-x ;background-image: url(/static/img/controlpane
 .block_item li{margin: 1px 10px 0 0}
 .block_item:hover{background-color:#eff6ff; border: 1px solid #bedafc}
 .block_item .icon{display: inline-block; height: 56px; width: 64px;background-repeat: no-repeat; float: left;}
-.icon.security{background-image: url('img/controlpanel_security.png')}
-.icon.network{background-image: url('img/controlpanel_network.png')}
-.icon.device{background-image: url('img/controlpanel_device.png')}
-.icon.program{background-image: url('img/controlpanel_program.png')}
-.icon.user{background-image: url('img/controlpanel_user.png')}
-.icon.video{background-image: url('img/controlpanel_video.png')}
-.icon.regional{background-image: url('img/controlpanel_regional.png')}
-.icon.facility{background-image: url('img/controlpanel_facility.png')}
+.icon.security{background-image: url('img/oxygen-icons/devices/secure-card.png')}
+.icon.network{background-image: url('img/oxygen-icons/places/network-workgroup.png')}
+.icon.device{background-image: url('img/oxygen-icons/devices/computer.png')}
+.icon.program{background-image: url('img/oxygen-icons/apps/preferences-system-windows.png')}
+.icon.user{background-image: url('img/oxygen-icons/apps/preferences-desktop-user.png')}
+.icon.video{background-image: url('img/oxygen-icons/categories/preferences-desktop.png')}
+.icon.regional{background-image: url('img/oxygen-icons/apps/preferences-desktop-keyboard.png')}
+.icon.facility{background-image: url('img/oxygen-icons/apps/preferences-desktop-accessibility.png')}
 .column{float: left; display: inline}
