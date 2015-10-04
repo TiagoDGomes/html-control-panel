@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<window id="main" title="Painel de controle" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" height="768" width="1024" persist="height,width,screenX,screenY,sizemode">
+ 
+<toolbox>
+  <toolbar id="nav-toolbar">
+    <toolbarbutton image="img/back.png" oncommand="document.getElementById('iframe').contentWindow.history.go(-1);"/>
+    <toolbarbutton image="img/forward.png"/>
+  </toolbar>
+  
+</toolbox>
+  <script type="application/javascript" src="chrome://control_panel/content/main.js"/>
+  <!--
+  <caption label="Hello World"/>
+  <separator/>
+  <button label="More >>" oncommand="showMore();"/>
+  <separator/>
+  <description id="more-text" hidden="true">This is a simple XULRunner application. XUL is simple to use and quite powerful and can even be used on mobile devices.</description>
+    -->
+  
+  <!--<browser type="content" src="http://localhost/cp" flex="1"/>
+  
+  <iframe height="35" src="bar.html"></iframe>-->
+  <iframe id="iframe" onclick="navigate(this); return false;" flex="1" src="index.html"></iframe>
+
+</window>

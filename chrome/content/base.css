@@ -1,0 +1,25 @@
+a {cursor: pointer; color: #3a66d5; text-decoration: none}
+a:hover{text-decoration: underline}
+a.option{font-size: 9pt;}
+a .icon{cursor: pointer;}
+* {cursor: default; font-size: 9pt; font-family:"Segoe UI", "Open Sans", "Arial", helvetica, sans-serif}
+h1, h2 {font-size: 12pt; font-weight: normal; padding: 0;margin: 0}
+h1{color: #393399; }
+h2, h2 a{color: #006312; font-size: 1.1em;}
+#header{margin: 20px 0 35px 0}
+body {background-repeat: repeat-x ;background-image: url(/static/img/controlpanel_home.png); border:0}
+#main {padding: 0 20px 0 20px;max-width: 800px; margin: 0 auto}
+.block_item{ border: 1px solid transparent; max-width: 350px; min-height: 52px;padding-bottom: 5px}
+.block_item ul{list-style-type: none; margin: 0; padding-left: 64px;}
+.block_item li{margin: 1px 10px 0 0}
+.block_item:hover{background-color:#eff6ff; border: 1px solid #bedafc}
+.block_item .icon{display: inline-block; height: 56px; width: 64px;background-repeat: no-repeat; float: left;}
+.icon.security{background-image: url('img/controlpanel_security.png')}
+.icon.network{background-image: url('img/controlpanel_network.png')}
+.icon.device{background-image: url('img/controlpanel_device.png')}
+.icon.program{background-image: url('img/controlpanel_program.png')}
+.icon.user{background-image: url('img/controlpanel_user.png')}
+.icon.video{background-image: url('img/controlpanel_video.png')}
+.icon.regional{background-image: url('img/controlpanel_regional.png')}
+.icon.facility{background-image: url('img/controlpanel_facility.png')}
+.column{float: left; display: inline}
